@@ -13,10 +13,10 @@ public class Main {
         if (StringUtils.isNumeric(hi1)){
             System.out.println("User entered a number");
         }else {
-            System.out.println("User entered a word");
+            System.out.printf("You Entered: \"%s\", which is not a number%n",hi1);
         }
-        System.out.println(StringUtils.swapCase(hi1));
-        System.out.println(StringUtils.reverse(hi1));
+        System.out.println("Flipped case: "+StringUtils.swapCase(hi1));
+        System.out.println("Reversed: "+StringUtils.reverse(hi1));
 
     }
 }
